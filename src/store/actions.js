@@ -18,5 +18,8 @@ export default {
   },
   clearSearchResult({commit}, info){
     commit(types.CLEAR_SEARCHRESULT, info)
+  },
+  initFromLS({ commit }, info) {
+    commit(types.INIT_FROM_LS, info)
   }
 }
